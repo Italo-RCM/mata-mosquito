@@ -1,0 +1,90 @@
+html {
+	cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+}
+
+body {
+	background-image: url(imagens/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.mosquito1 {
+	width: 50px;
+	height: 50px;
+}
+
+.mosquito2 {
+	width: 70px;
+	height: 70px;
+}
+
+.mosquito3 {
+	width: 90px;
+	height: 90px;
+}
+
+.ladoA {
+	transform: scaleX(1);
+}
+
+.ladoB {
+	transform: scaleX(-1);
+}
+
+.painel {
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	left: 0px;
+	bottom: 0px;
+	border-top:solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7
+}
+
+.vidas {
+	float: left;
+}
+
+.cronometro {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+/*LAYOUT TABLET 885*/
+
+@media screen and (max-width: 885px) {
+
+	body {
+		background-image: url(imagens/bg-tablet.jpg);
+	}
+
+}
+
+/*LAYOUT TABLET 835*/
+
+@media screen and (max-width: 835px) {
+
+	body {
+		background-image: url(imagens/bg-tablet-835px.jpg);
+	}
+
+}
+
+/*LAYOUT TABLET 429*/
+
+@media screen and (max-width: 429px) {
+
+	body {
+		background-image: url(imagens/bg-cllr-429.jpg);
+	}
+
+	.img-titulo-mosquito {
+		width: 350px;
+		height: 350px;
+	}
+}
