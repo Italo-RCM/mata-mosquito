@@ -1,9 +1,9 @@
 html {
-	cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+	cursor: url("imagens/mata_mosquito.png") 30 30, auto;
 }
 
 body {
-	background-image: url(imagens/bg.jpg);
+	background-image: url("imagens/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -59,8 +59,12 @@ body {
 
 @media screen and (max-width: 885px) {
 
+	body, html {
+		overflow-x: hidden!important;
+	}
+
 	body {
-		background-image: url(imagens/bg-tablet.jpg);
+		background-image: url("imagens/bg-tablet.jpg");
 	}
 
 }
@@ -69,18 +73,26 @@ body {
 
 @media screen and (max-width: 835px) {
 
+	body, html {
+		overflow-x: hidden!important;
+	}
+
 	body {
-		background-image: url(imagens/bg-tablet-835px.jpg);
+		background-image: url("imagens/bg-tablet-835px.jpg");
 	}
 
 }
 
-/*LAYOUT TABLET 429*/
+/*LAYOUT CELULAR 429*/
 
 @media screen and (max-width: 429px) {
 
+	body, html {
+		overflow-x: hidden!important;
+	}
+
 	body {
-		background-image: url(imagens/bg-cllr-429.jpg);
+		background-image: url("imagens/bg-cllr-429.jpg");
 	}
 
 	.img-titulo-mosquito {
